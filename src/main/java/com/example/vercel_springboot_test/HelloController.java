@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class HelloController {
-    @GetMapping("/hello")
+    @GetMapping("/")
     String hello() {
         return "Hello from Spring Boot on Vercel";
     }
